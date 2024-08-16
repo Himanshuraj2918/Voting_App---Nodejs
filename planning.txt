@@ -1,0 +1,39 @@
+models?
+routes?
+
+voting app functionality
+
+1. user sign in / sign up
+2. see the list of candiadte
+3. vote one of the candiadte, after voting, user can't  vote again.
+4. there is a route which shows the list of candiadte and their live vote counts sorted by their vote count.
+5. user data must contain their one unique government id proof named | aadhar card number.
+6. there should be one admin  who can only maintain the table of candidate and he can't abe to vote all
+7. user can change their password.
+8. user can login only with their aadhar card and password.
+
+--------------------------------------------------------------
+
+Routes
+
+User Authentication :
+     /signup
+     /login  [aadharacard number , password]
+
+Voting:
+     /candiadte
+     /vote
+
+Vote Counts:
+     /vote/counts
+
+User Profiles:
+     /profiles
+     /profile/password
+
+Admin Candidate Management:
+      /candiadte
+      /candiadte/:candiadteId [PUT] - Update the candiadte
+      /candiadte/:candiadteId [DELETE] - Delete the candiadte
+
+
