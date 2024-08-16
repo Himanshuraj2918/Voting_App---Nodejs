@@ -7,7 +7,7 @@
 > 3. Bcrypt Js
 > 4. Mongoose
 
-> Any many others packages taht are present in package.json
+> And many others packages taht are present in package.json
 
 You can run this appliaction using Postman, Thunder client or many application.
 
@@ -16,4 +16,4 @@ You can run this appliaction using Postman, Thunder client or many application.
 1. `npm i ` to install all packages .
 2. Create `.env` file in your root directory and set all enviroment variable
 3. `npm run dev ` to run this application on your localhost
-4. And postman to check all the endpoints 
+4. And use postman to check all the endpoints 
